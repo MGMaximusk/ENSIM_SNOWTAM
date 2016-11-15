@@ -14,4 +14,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Code OACI de l'aéroport"
+        android:ems="10"
+        android:layout_marginTop="24dp"
+        android:id="@+id/editText"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:elevation="0dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignEnd="@+id/editText" />
 </RelativeLayout>
