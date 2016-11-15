@@ -1,4 +1,4 @@
-package com.example.alexis.snowtam.*;
+package com.example.alexis.snowtam.Views;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
