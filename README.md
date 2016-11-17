@@ -1,9 +1,6 @@
-  ______ _   _  _____ _____ __  __        _____ _   _  ______          _________       __  __   _
- |  ____| \ | |/ ____|_   _|  \/  |      / ____| \ | |/ __ \ \        / /__   __|/\   |  \/  | | |
- | |__  |  \| | (___   | | | \  / |_____| (___ |  \| | |  | \ \  /\  / /   | |  /  \  | \  / | | |
- |  __| | . ` |\___ \  | | | |\/| |______\___ \| . ` | |  | |\ \/  \/ /    | | / /\ \ | |\/| | | |
- | |____| |\  |____) |_| |_| |  | |      ____) | |\  | |__| | \  /\  /     | |/ ____ \| |  | | |_|
- |______|_| \_|_____/|_____|_|  |_|     |_____/|_| \_|\____/   \/  \/      |_/_/    \_\_|  |_| (_)
-
-
+# SNOWTAMHelper
 This is a SNOWTAM reader for Android.
+
+SNOWTAMHelper folder contains the Android Studio project.
+
+Project Documents contains diagrams and other project management documents.
