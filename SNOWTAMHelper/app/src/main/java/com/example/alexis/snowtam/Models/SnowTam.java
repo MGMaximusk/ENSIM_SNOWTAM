@@ -30,12 +30,12 @@ public class SnowTam implements Parcelable {
 
     public SnowTam() {super();}
 
+
     /**
      *
      * Parcelable Interface
      *
      */
-
     @Override
     public int describeContents() {
         return 0;
@@ -62,7 +62,7 @@ public class SnowTam implements Parcelable {
     }
 
 
-    public SnowTam(Parcel in) {
+    private SnowTam(Parcel in) {
         this.a_airportCode = in.readString();
         long tmpB_date = in.readLong();
         this.b_date = tmpB_date == -1 ? null : new Date(tmpB_date);
