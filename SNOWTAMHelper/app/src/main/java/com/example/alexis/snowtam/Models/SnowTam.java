@@ -1,6 +1,12 @@
-package com.example.alexis.snowtam.*;
+package com.example.alexis.snowtam.Models;
 
+/**
+ * Created by Mactrasher on 23/11/2016.
+ */
 
-public void testToast(){
-        return;
-        }
+public class SnowTam {
+
+    String runwayDes = "";
+    String typeOfDepo = "";
+    String extent
+}
