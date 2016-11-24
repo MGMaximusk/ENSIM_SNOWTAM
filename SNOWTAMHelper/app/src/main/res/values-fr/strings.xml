@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ENSIM SNOWTAM</string>
+    <string name="welcomeTitle">Bienvenue dans l'application ENSIM SNOWTAM</string>
+    <string name="welcomeText">Veuillez entrer les codes OACI des aéroports souhaités</string>
+    <string name="addString">Ajouter</string>
+    <string name="delString">Supprimer</string>
+    <string name="validationString">Recherche des SNOWTAMS</string>
+    <string name="selectedAirports">Liste des aéroports sélectionnés</string>
+</resources>
