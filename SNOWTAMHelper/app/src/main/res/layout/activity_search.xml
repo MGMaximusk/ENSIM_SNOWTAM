@@ -12,7 +12,6 @@
     android:background="@android:color/background_light">
 
     <TextView
-        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
@@ -48,10 +47,9 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/airportCode"
         android:textAlignment="center"
@@ -66,7 +64,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/buttonAdd"
-        android:elevation="0dp"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
         tools:background="@android:color/holo_blue_dark"
         android:textColor="@android:color/background_light"
@@ -92,7 +89,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/buttonDelete"
-        android:elevation="0dp"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
         tools:background="@android:color/holo_blue_dark"
         android:textColor="@android:color/background_light"
@@ -106,6 +102,7 @@
         android:id="@+id/airportsList"
         android:layout_below="@+id/textView3"
         android:layout_alignParentStart="true"
-        android:layout_above="@+id/buttonResearch" />
+        android:layout_above="@+id/buttonResearch"
+        android:text="@string/welcomeTitle" />
 
 </RelativeLayout>
