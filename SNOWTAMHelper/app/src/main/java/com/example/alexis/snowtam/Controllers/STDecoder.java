@@ -77,10 +77,6 @@ public class STDecoder {
         String snowtam = "";
 
         Scanner sc = null;
-        try{
-            sc = new Scanner(new InputStream(getApplicationContext.getResources().openRawResource(resId)));
-
-        }
 
         return snowtam;
     }
