@@ -1,5 +1,7 @@
 package com.example.alexis.snowtam.Controllers;
 
+import android.content.Context;
+
 import com.example.alexis.snowtam.Models.SnowTam;
 
 import java.io.IOException;
@@ -11,6 +13,7 @@ import java.util.Scanner;
  */
 
 public class STDecoder {
+
 
     public SnowTam decode(String rawSnowTam){
         String[] lines = rawSnowTam.split("\n");
@@ -73,13 +76,7 @@ public class STDecoder {
     }
 
 
-    public String test_STReader(){
-        String snowtam = "";
 
-        Scanner sc = null;
-
-        return snowtam;
-    }
 
 
 }

@@ -10,9 +10,12 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.example.alexis.snowtam.Controllers.STDecoder;
+import com.example.alexis.snowtam.Models.SnowTam;
 import com.example.alexis.snowtam.R;
 
 public class SearchActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

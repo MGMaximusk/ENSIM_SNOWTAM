@@ -9,6 +9,14 @@ import android.os.Parcelable;
 
 public class SnowTam implements Parcelable {
 
+    final String raw = "A) ENVA\n" +
+            "B) 10130330 \n" +
+            "C) 09\n" +
+            "F) NIL/NIL/NIL \n" +
+            "H) 5/5/5\n" +
+            "N) A1 A2 A3 A4 A5 A6 A8 B1 B2 G C G W Y/NIL\n" +
+            "R) APRON EAST APRON NORTH APRON WEST M1 M2 M3/NIL";
+
     private String  a_airportCode = "";
     private String  b_date = "";
     private String  c_trackID = "";
@@ -55,7 +63,7 @@ public class SnowTam implements Parcelable {
     public SnowTam() {
     }
 
-    protected SnowTam(Parcel in) {
+    private SnowTam(Parcel in) {
         this.a_airportCode = in.readString();
         this.b_date = in.readString();
         this.c_trackID = in.readString();
