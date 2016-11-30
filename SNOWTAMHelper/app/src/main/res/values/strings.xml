@@ -1,10 +1,29 @@
 <resources>
+    <!--Main Activity : Strings-->
     <string name="app_name">ENSIM SNOWTAM</string>
     <string name="welcomeTitle">Welcome in ENSIM SNOWTAM app</string>
     <string name="welcomeText">Please, enter the ICAO code of the desired airport</string>
     <string name="addString">Add to the list</string>
     <string name="delString">Delete</string>
-
     <string name="validationString">Research the SNOWTAMS</string>
     <string name="selectedAirports">List of selected airports</string>
+
+    <!--Main Activity Error : Strings-->
+    <string name="ErrorCode">Please, enter a code before adding it.</string>
+    <string name="ErrorSelect">Please, select a code before deleting it.</string>
+    <string name="ErrorSearch">Please, enter a code before launching the research.</string>
+
+    <!--Search Activity : Strings-->
+    <string name="Map">Show Map</string>
+
+    <!--Search Activity Form: Strings-->
+    <string name="Date_Snowtam">Date :</string>
+    <string name="Runway_Snowtam">Runway :</string>
+    <string name="StateRunway_Snowtam">State :</string>
+    <string name="DepthRunway_Snowtam">Mean Depth :</string>
+    <string name="Braking_Snowtam">Braking Action :</string>
+    <string name="Taxiways_Snowtam">Taxiways :</string>
+    <string name="NextObservation_Snowtam">Next Observation :</string>
+    <string name="Remarks_Snowtam">Remarks :</string>
+
 </resources>

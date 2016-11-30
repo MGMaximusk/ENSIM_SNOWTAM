@@ -2,6 +2,10 @@ package com.example.alexis.snowtam.Controllers;
 
 import com.example.alexis.snowtam.Models.SnowTam;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Scanner;
+
 /**
  * Created by Mactrasher on 24/11/2016.
  */
@@ -70,7 +74,15 @@ public class STDecoder {
 
 
     public String test_STReader(){
+        String snowtam = "";
 
+        Scanner sc = null;
+        try{
+            sc = new Scanner(new InputStream(getApplicationContext.getResources().openRawResource(resId)));
+
+        }
+
+        return snowtam;
     }
 
 

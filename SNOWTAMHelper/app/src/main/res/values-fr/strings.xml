@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--Main Activity : Strings-->
     <string name="app_name">ENSIM SNOWTAM</string>
-    <string name="welcomeTitle">Bienvenue dans l'application ENSIM SNOWTAM</string>
-    <string name="welcomeText">Veuillez entrer les codes OACI des aéroports souhaités</string>
-    <string name="addString">Ajouter</string>
-    <string name="delString">Supprimer</string>
-    <string name="validationString">Recherche des SNOWTAMS</string>
-    <string name="selectedAirports">Liste des aéroports sélectionnés</string>
+    <string name="welcomeTitle">Bienvenue dans l\'application ENSIM SNOWTAM</string>
+    <string name="welcomeText">Veuillez entrer le code OACI de l\'aéroport souhaité</string>
+    <string name="addString">Ajouter à la liste</string>
+    <string name="delString">Supprimer de la liste</string>
+    <string name="validationString">Rechercher les SNOWTAMS</string>
+    <string name="selectedAirports">Liste des aéroports choisis</string>
+
+    <!--Main Activity Errors : Strings-->
+    <string name="ErrorCode">Veuillez entrer un code OACI avant de l\'ajouter.</string>
+    <string name="ErrorSelect">Veuillez sélectionner un code avant de le supprimer.</string>
+    <string name="ErrorSearch">Veuillez rentrer un code avant de lancer une recherche.</string>
+
+    <!--Search Activity : Strings-->
+    <string name="Map">Montrer Carte</string>
+
+    <!--Search Activity Form: Strings-->
+    <string name="Date_Snowtam">Date :</string>
+    <string name="Runway_Snowtam">Piste :</string>
+    <string name="StateRunway_Snowtam">Etat :</string>
+    <string name="DepthRunway_Snowtam">Mean Depth :</string>
+    <string name="Braking_Snowtam">Braking Action :</string>
+    <string name="Taxiways_Snowtam">Taxiways :</string>
+    <string name="NextObservation_Snowtam">Observation :</string>
+    <string name="Remarks_Snowtam">Remarques :</string>
+
 </resources>
+
